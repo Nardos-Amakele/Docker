@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('images/tea.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    width: 35%;
+    margin: 50px 10% 50px auto;
+    padding: 20px;
+    background: #21130d;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    border: 2px solid #e3caa5;
+    background-color: #21130d;
+    color: #f5e6d4;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input::placeholder, select {
+    color: white;
+    opacity: 0.7;
+}
+
+select {
+    background-color: #21130d;
+    border-radius: 5px;
+    border: 2px solid #e3caa5;
+    
+}
+
+select option {
+    background-color: #6f4e37;
+    color: #f5e6d4;
+    padding: 10px;
+}
+
+select option:hover {
+    background-color: #d4a24f;
+}
+
+h1 {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select, button {
+    margin: 10px 0;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #d4a24f;
+    color: #3e2723;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b86a;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+        margin: 50px auto;
+    }
+}

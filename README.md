@@ -17,4 +17,5 @@ Access the frontend at http://localhost:3000
 
 To stop the application:
 ```bash
-docker-compose down```
+docker-compose down
+```

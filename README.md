@@ -1,6 +1,6 @@
 # ML Docker App
 
-A simple machine learning web application using **Docker**, **Flask**, and **Node.js**. The backend serves a machine learning model, while the frontend allows users to interact with the model through a form and receive predictions.
+A simple machine learning web application using **Docker**, **Flask**, and **Node.js**. The backend serves a machine learning model, while the frontend allows users to interact with the model through a form and receive predictions. It predicts weather a person likes coffe or tea based on age, favorite color and preference of sweets.
 
 ---
 

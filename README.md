@@ -13,6 +13,8 @@ cd ml-docker-app
 docker-compose up --build
 ```
 Access the frontend at http://localhost:3000
+
+
 To stop the application:
 ```bash
 git clone https://your-repository-url.git

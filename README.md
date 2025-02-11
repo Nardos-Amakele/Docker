@@ -17,5 +17,4 @@ Access the frontend at http://localhost:3000
 
 To stop the application:
 ```bash
-git clone https://your-repository-url.git
-```
+docker-compose down```
